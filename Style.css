@@ -1,0 +1,104 @@
+
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+	
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid black;
+	transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+	background-color: black;
+	color: white;
+}
+
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.slider{
+	width: 1311px;
+	height: 400px;
+	background-image: url(gal2.jpg);
+	margin: 0px;
+	animation: slide 20s infinite;
+}
+
+@keyframes slide{
+	25%{
+		background: url(gal3.jpg);
+	}
+	
+	50%{
+		background: url(gal7.jpg);
+	}
+
+	75%{
+		background: url(gal4.jpg);
+	}
+
+	100%{
+		background: url(gal5.jpg);
+	}
+
+}
+
+
+.work{
+	 background: rgba(255, 255, 255,.6);
+	 }
+	 
+	 
+.slid{
+	width: 1311px;
+	height: 400px;
+	background-image: url("img/gal10.jpg");
+	margin: 0px;
+	animation: slide 20s infinite;
+}
+
+@keyframes slide{
+	25%{
+		background: url(gal3.jpg);
+	}
+	
+	50%{
+		background: url(gal10.jpg);
+	}
+
+	75%{
+		background: url(gal4.jpg);
+	}
+
+	100%{
+		background: url(gal5.jpg);
+	}
+
+}	
+.margin{
+margin-left :60px;
+}
